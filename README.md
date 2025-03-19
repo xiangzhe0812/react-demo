@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+## How to run this project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+Create .env file in root folder and add your api key like this: REACT_APP_SUBGRAPH_API="your api key"
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Then you will see the first 20 pools order by total value locked usd on the page like below
+ease.org - ez-cvxsteCRV
+Pool ID: 0x277667eb3e34f134adf870be9550e9f323d0dc24
+ease.org: 0x160de4468586b6b2f8a92feb0c260fc6cfc743b1
+ez-cvxsteCRV: 0xea5edef1c6ed1be1bcba4617a1c5a994e9018a43
+ease.org - ez-yvCurve-IronBank
+Pool ID: 0x8c0411f2ad5470a66cb2e9c64536cfb8dcd54d51
+ease.org: 0x160de4468586b6b2f8a92feb0c260fc6cfc743b1
+ez-yvCurve-IronBank: 0xea5edef1fcf717327440646e7302ca058dde844f
+ease.org - ez-SLP-WBTC-WETH
+Pool ID: 0x055284a4ca6532ecc219ac06b577d540c686669d
+ease.org: 0x160de4468586b6b2f8a92feb0c260fc6cfc743b1
+ez-SLP-WBTC-WETH: 0xea5edef10f8255cd03541e8ff163a2836e0d7bd3
+USDC - WETH
+Pool ID: 0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640
+USDC: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
+WETH: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+USDC - WETH
+Pool ID: 0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8
+USDC: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
+WETH: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+WBTC - USDC
+Pool ID: 0x99ac8ca7087fa4a2a1fb6357269965a2014abc35
+WBTC: 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599
+USDC: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
+WBTC - WETH
+Pool ID: 0xcbcdf9626bc03e24f779434178a73a0b4bad62ed
+WBTC: 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599
+WETH: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+WETH - USDT
+Pool ID: 0x4e68ccd3e89f51c3074ca5072bbac773960dfa36
+WETH: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+USDT: 0xdac17f958d2ee523a2206206994597c13d831ec7
+WBTC - WETH
+Pool ID: 0x4585fe77225b41b697c938b018e2ac67ac5a20c0
+WBTC: 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599
+WETH: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+WETH - USDT
+Pool ID: 0x11b815efb8f581194ae79006d24e0d814b7697f6
+WETH: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+USDT: 0xdac17f958d2ee523a2206206994597c13d831ec7
+WBTC - USDT
+Pool ID: 0x9db9e0e53058c89e5b94e29621a205198648425b
+WBTC: 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599
+USDT: 0xdac17f958d2ee523a2206206994597c13d831ec7
+DAI - USDC
+Pool ID: 0x5777d92f208679db4b9778590fa3cab3ac9e2168
+DAI: 0x6b175474e89094c44da98b954eedeac495271d0f
+USDC: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
+beraSTONE - WETH
+Pool ID: 0x6dcba3657ee750a51a13a235b4ed081317da3066
+beraSTONE: 0x97ad75064b20fb2b2447fed4fa953bf7f007a706
+WETH: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+LINK - WETH
+Pool ID: 0xa6cc3c2531fdaa6ae1a3ca84c2855806728693e8
+LINK: 0x514910771af9ca656af840dff83e8264ecf986ca
+WETH: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+WBTC - USDT
+Pool ID: 0x56534741cd8b152df6d48adf7ac51f75169a83b2
+WBTC: 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599
+USDT: 0xdac17f958d2ee523a2206206994597c13d831ec7
+HKDM - USDM
+Pool ID: 0x5796d7ad51583ae2c7297652edb7006bcd90519d
+HKDM: 0x0071f94350573cd411e40bb409e7ddd927224054
+USDM: 0xbbaec992fc2d637151daf40451f160bf85f3c8c1
+DAI - WETH
+Pool ID: 0xc2e9f25be6257c210d7adf0d4cd6e3e881ba25f8
+DAI: 0x6b175474e89094c44da98b954eedeac495271d0f
+WETH: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+WBTC - cbBTC
+Pool ID: 0xe8f7c89c5efa061e340f2d2f206ec78fd8f7e124
+WBTC: 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599
+cbBTC: 0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf
+UNI - WETH
+Pool ID: 0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801
+UNI: 0x1f9840a85d5af5bf1d1762f925bdaddc4201f984
+WETH: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+PEPE - WETH
+Pool ID: 0x11950d141ecb863f01007add7d1a342041227b58
+PEPE: 0x6982508145454ce325ddbe47a25d4ec3d2311933
+WETH: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
